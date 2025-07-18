@@ -57,7 +57,7 @@ checkpoint = ModelCheckpoint(
 # Train model with callbacks
 history = model.fit(
     X_train, y_train,
-    epochs=25,
+    epochs=30,
     batch_size=64,
     validation_split=0.1,
     callbacks=[early_stop, checkpoint]

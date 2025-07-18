@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 
 # Load the trained model
-model = load_model("best_model.h5")  
+model = load_model("FaceEmotion_model.h5")  
 
 # Emotion labels from FER-2013
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
